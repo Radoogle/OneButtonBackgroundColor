@@ -20,12 +20,27 @@
     border-radius: 50%;
     background-color: lightgray;
     color: black;
+    font-size: 1.3em;
+    border-width: 11px;
 }
 
-.display {
-    width: 20em;
-    height: 4em;
-    background-color: white;
+.btn:focus {
+    outline: none;
+}
+
+.displayRGB, .displayHEX, .complimentary {
+    width: 10em;
+    height: 2em;
+    background-color: transparent;
     margin-top: 1em;
-    padding: 1em;
+    padding: .5em;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+}
+
+.displayHEX {
+    text-transform: uppercase;
 }
