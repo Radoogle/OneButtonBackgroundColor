@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    flex-direction: column;
+}
+
+.btn {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+}
+
+.display {
+    width: 20em;
+    height: 4em;
+    background-color: white;
+    margin-top: 1em;
+    padding: 1em;
+}
